@@ -59,7 +59,7 @@ a {
     background-size: cover;
 }
 /* Hero elements end */
-/* Content Section begins */
+/* Content elements begin */
 .content {
     width: 75%;
     display: inline-block;
@@ -121,7 +121,8 @@ p {
     margin-bottom: 25px;
     max-height: 200px;
 }
-
+/* Content elements ends */
+/* Benefit elements begin */
 .benefit {
     margin-right: 20px;
     padding: 20px;
@@ -154,7 +155,8 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
 }
-
+/* benefit elements end */
+/* footer begins */
 .footer {
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -164,3 +166,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* footer ends */
