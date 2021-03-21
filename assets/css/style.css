@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* header/nav elements begin */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,7 +29,7 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .header nav ul {
@@ -46,15 +46,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-    color: #ffffff;
-}
-
+/* Header/nav elements end */
+/* Hero elements begin */
 .hero {
-    margin-bottom: 25px;
-}
+        margin-bottom: 25px;
+} 
 
 .hero img {
     height: 800px;
@@ -62,14 +58,25 @@ p {
     background-position: center;
     background-size: cover;
 }
-
+/* Hero elements end */
+/* Content Section begins */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.content-search {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -78,18 +85,13 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.content-search img {
     float: right;
     margin-bottom: 25px;
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management {
+.content-online {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -99,18 +101,13 @@ p {
     text-align: right;
 }
 
-.online-reputation-management img {
+.content-online img {
     float: left;
     margin-bottom: 25px;
     max-height: 200px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing {
+.content-social {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -119,15 +116,10 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing img {
+.content-social img {
     float: right;
     margin-bottom: 25px;
     max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .benefit {
@@ -137,7 +129,6 @@ p {
     width: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    
 }
 
 .benefit h3 {
